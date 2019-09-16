@@ -4,6 +4,7 @@
 import sys
 import requests
 import re
+sys.path.append("..")
 import libs.file as file
 import time
 import random
@@ -27,7 +28,7 @@ def main(argv):
 	
 	# currently 3076-7220
 	start_id = 3075
-	end_id = 7222
+	end_id = 7230
 	try:
 		if argv[1] == 'new':
 			file.write_file(filename, '', 'w+')
