@@ -15,7 +15,7 @@ def get_comments_detail(id, sessionid):
 	cookie = {'sessionid': sessionid}
 	try:
 		r = requests.get(url, cookies=cookie)
-		reviewer_comments = r.content.split('审核评价： ', 1)[1].split('</div>', 1)[0].strip()
+		reviewer_comments = r.content.split('审核评价： ', 1)[1].split('</div>', 1)[0].strip().replace("\r\n", " ")
 		print str(id) + ',' + reviewer_comments
 	except Exception as e:
 		print e
@@ -46,3 +46,4 @@ def main(argv):
 
 if __name__ == "__main__":
 	main(sys.argv)
+	
