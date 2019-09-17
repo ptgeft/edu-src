@@ -42,7 +42,7 @@ def main(argv):
 		if reviewer_comments != '':
 			data = str(id) + ',' + reviewer_comments + '\n'
 			file.write_file(filename, data)
-		time.sleep(0.5 + random.random())
+		#time.sleep(0.5 + random.random())
 
 if __name__ == "__main__":
 	main(sys.argv)
