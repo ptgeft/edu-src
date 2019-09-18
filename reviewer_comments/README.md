@@ -9,7 +9,7 @@ Collect all reviwers' comments.
 You will need to provide your SESSIONID here to gain access to the posts.
 
 ```python
-# list all the firms from start
+# fetch all the comments from start
 python review_comments.py SESSIONID new
 
 # keep working on last query
