@@ -28,7 +28,7 @@ def main(argv):
 	
 	# currently 3076-7220
 	start_id = 3075
-	end_id = 7230
+	end_id = 8000
 	try:
 		if argv[1] == 'new':
 			file.write_file(filename, '', 'w+')
