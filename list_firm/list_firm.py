@@ -10,7 +10,7 @@ import time
 import random
 
 def get_firm_detail(id):
-	url = 'https://src.edu-info.edu.cn/list/firm/' + str(id)
+	url = 'https://src.sjtu.edu.cn/list/firm/' + str(id)
 	firm_name = ''
 	vul_num = ''
 	try:
