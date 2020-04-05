@@ -10,8 +10,8 @@ You will need to provide your SESSIONID here to gain access to the posts.
 
 ```python
 # fetch all the comments from start
-python review_comments.py SESSIONID new
+python review_comments.py SESSIONID END_ID new
 
 # keep working on last query
-python review_comments.py SESSIONID
+python review_comments.py SESSIONID END_ID
 ```

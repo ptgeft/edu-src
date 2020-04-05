@@ -8,8 +8,8 @@ Get university list under test for further usage.
 
 ```python
 # list all the firms from start
-python list_firm.py new
+python list_firm.py END_ID new
 
 # keep working on last query
-python list_firm.py
+python list_firm.py END_ID
 ```

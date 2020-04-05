@@ -28,9 +28,9 @@ def main(argv):
 	
 	# currently 3076-7220
 	start_id = 3075
-	end_id = 8000
+	end_id = int(argv[1])
 	try:
-		if argv[1] == 'new':
+		if argv[2] == 'new':
 			file.write_file(filename, '', 'w+')
 	except Exception as e:
 		if file.isfile(filename):

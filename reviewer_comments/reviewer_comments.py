@@ -26,9 +26,9 @@ def main(argv):
 	sessionid = argv[1]
 	# currently 1 - max(37942)
 	start_id = 1
-	end_id = 38010
+	end_id = int(argv[2])
 	try:
-		if argv[2] == 'new':
+		if argv[3] == 'new':
 			file.write_file(filename, '', 'w+')
 	except Exception as e:
 		if file.isfile(filename):
